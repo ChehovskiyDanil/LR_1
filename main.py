@@ -1,11 +1,13 @@
 import math
 
+name = str(input("Как вас зовут? "))
 print('Ввдедите данные для вычисления по формулам: ')
 a = float(input('Введите a = '))
 b = float(input('Введите b = '))
 c = float(input('Введите c = '))
 pi = 3.14159
 
+print(('Вот полученные результаты ')+str(name))
 z1 = ((a-b-c)/2)*a
 print (('z1 = ')+str(z1))
 z2 = (c-b)/a+2*b
